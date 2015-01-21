@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{{! Document Settings }}
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	{{! Page Meta }}
+	<title>{{meta_title}}</title>
+	<meta name="description" content="{{@blog.description}}">
+	<meta name="author" content="{{@blog.title}}">
+
+	{{#if post}}
+	{{#post}}
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:title" content="{{title}}">
+	<meta name="twitter:description" content="{{excerpt}}">
+	<meta name="twitter:creator" content="{{author.name}}">
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{{title}}">
+	<meta property="og:description" content="{{excerpt}}">
+	<meta property="og:site_name" content="{{@blog.title}}">
+	{{/post}}
+	{{else}}
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:title" content="{{@blog.title}}">
+	<meta name="twitter:description" content="{{@blog.description}}">
+	<meta name="twitter:creator" content="{{@blog.title}}">
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{{@blog.title}}">
+	<meta property="og:description" content="{{@blog.description}}">
+	<meta property="og:site_name" content="{{@blog.title}}">
+	<meta property="fb:admins" content="">
+	{{/if}}
+
+	{{! Styles }}
+	<link href="{{asset "css/bootstrap.min.css"}}" rel="stylesheet">
+	<link href="{{asset "css/font-awesome.min.css"}}" rel="stylesheet">
+	<link href="{{asset "css/style.css"}}" rel="stylesheet">
+
+	{{! Ghost outputs important style and meta data with this tag }}
+	{{ghost_head}}
+
+</head>
+<body class="{{body_class}}" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+	<!-- Skip Link -->
+	<a href="#content" class="sr-only">Skip to main content</a>
+
+	<!-- Site Header -->
+	<header id="ost-site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader" >
+
+		<div class="container text-center">
+			<!-- Logo or site Title -->
+			<h1 class="blog-logo" itemprop="headline">
+				<a id="blog-logo" href="{{@blog.url}}" title="{{@blog.title}}">
+					{{#if @blog.logo}}
+						<img src="{{@blog.logo}}" alt="{{@blog.title}}" />
+					{{else}}
+						{{@blog.title}}
+					{{/if}}
+				</a>
+			</h1>
+
+			<!-- Site Description -->
+			<p class="description h4" itemprop="description">
+				{{@blog.description}}
+			</p>
+
+		</div>
+
+		<!-- Main Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+			<div class="container">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+					<ul class="nav navbar-nav">
+						<li><a href="{{@blog.url}}">Home</a></li>
+						<li><a href="/about/">About this Theme</a></li>
+						<li><a href="https://github.com/hchouhan/OST-Ghost-Theme" target="_blank">GitHub Repo</a></li>
+						<li><a href="#" target="_blank">Making a Ghost Theme</a></li>
+						<li><a href="http://bit.ly/OST-Theme" target="_blank">Download</a></li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right nav-social">
+						<li>
+							<a href="https://twitter.com/OSTraining" target="_blank"><i class="fa fa-twitter-square fa-lg"></i><span class="sr-only">Follow us on Twitter</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/ostraining" target="_blank"><i class="fa fa-facebook-square fa-lg"></i><span class="sr-only">Like us on Facebook</span></a>
+						</li>
+						<li>
+							<a href="http://google.com/+Ostraining" target="_blank"><i class="fa fa-google-plus-square fa-lg"></i><span class="sr-only">Follow us on GooglePlus</span></a>
+						</li>
+						<li>
+							<a href="{{@blog.url}}/rss/" target="_blank"><i class="fa fa-rss-square fa-lg"></i><span class="sr-only">Subscribe to our RSS Feed</span></a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+		</nav>
+
+	</header>
+	<!-- End of Header -->
+
+	{{! Insert content from index.hbs or post.hbs depending on the page visited }}
+	{{{body}}}
+
+	<!-- Site Footer -->
+	<footer id="ost-site-footer" class="text-center" role="contentinfo">
+		<div class="container">
+			<p>Published with <a href="http://ghost.org" target="_blank">Ghost</a> &amp; powered by <a href="http://discoverghost.com/ost-ghost-a-free-theme-for-ghost/" target="_blank">OST Ghost Theme</a></p>
+			<p>&copy; <a href="{{@blog.url}}">{{@blog.title}}</a>, {{date format="YYYY"}} &bull; All rights reserved.</p>
+		</div>
+	</footer>
+	<!-- End of Site Footer -->
+
+	{{! Ghost outputs important scripts and data with this tag }}
+	{{ghost_foot}}
+
+	{{! Scripts }}
+	<script src="{{asset "js/bootstrap.min.js"}}"></script>
+	<script src="{{asset "js/jquery.backstretch.js"}}"></script>
+	<script src="{{asset "js/jquery.fitvids.js"}}"></script>
+	<script src="{{asset "js/index.js"}}"></script>
+
+	{{#if @blog.cover}}
+	<script>
+		$.backstretch("{{@blog.cover}}");
+	</script>
+	{{/if}}
+
+</body>
+</html>
