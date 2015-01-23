@@ -10,11 +10,11 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
 body {
-  	background-color: #e7e7e7;
+  	background-color: #60753C;
   	font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #555;
+    color: #F3F4F3;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -60,11 +60,14 @@ code {
 
 #foot {
     text-align: center;
+    color: #C3E090;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* Links */
 a {
-    color: #09a0ef;
+    color: #8BC44B;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -110,8 +113,8 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #09a0ef;
-	border-color: #0993ef;
+    background-color: #60753C;
+    border-color: #506232;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -159,7 +162,7 @@ a:after {
 #ww {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #e7e7e7;
+	background-color: #303030;
 }
 
 #avatar {
