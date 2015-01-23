@@ -10,8 +10,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
 body {
-  	background-color: #333333;
-  	font-family: 'Roboto', sans-serif;
+    background-color: #1D1D1D;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #F3F4F3;
@@ -20,17 +20,32 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+#hero {
+  background-color: #1D1D1D;
+  text-align:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#hero p {
+  color: #ccc;
+  max-width: 755px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #333;
 }
 
 h1 {
-	font-size: 35px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 
@@ -43,11 +58,11 @@ p {
 }
 
 pre {
-	text-align: left;
+  text-align: left;
 }
 
 code {
-	text-align: left;
+  text-align: left;
 }
 
 .centered {
@@ -55,19 +70,19 @@ code {
 }
 
 .posts {
-	text-align: left;
+  text-align: left;
 }
 
 #foot {
     text-align: center;
-    color: #C3E090;
+    color: rgba(255,255,255,.4);
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 40px  ;
 }
 
 /* Links */
 a {
-    color: #8BC44B;
+    color: #80bd01;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -103,13 +118,13 @@ a:after {
 }
 
 .navbar {
-	text-transform: uppercase;
-	margin-bottom: 0px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 .navbar-inverse {
-	padding-bottom: 20px;
-	padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .navbar-inverse {
@@ -118,25 +133,25 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	color: white;
+  color: #cccccc;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+  color: #222222;
 }
 
 .navbar-brand {
-	font-weight: 700;
-	font-size: 20px;
-	letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .navbar-inverse .navbar-brand {
-	color: white;
+  color: #cccccc;
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: transparent;
+  border-color: transparent;
 }
 
 .progress-bar-theme {
@@ -147,25 +162,25 @@ a:after {
 /* Helpers */
 
 .mt {
-	margin-top: 40px;
-	margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
 /* +++++ WRAP SECTIONS +++++ */
 
 #ww {
-	padding-top: 70px;
-	padding-bottom: 70px;
-	background-color: #F3F4F3;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #303030;
 }
 
 #avatar {
-/*	border-radius: 206px;
-	border: solid #60753C 8px;*/
+  border-radius: 206px;
+  border: solid #60753C 8px;
 }
