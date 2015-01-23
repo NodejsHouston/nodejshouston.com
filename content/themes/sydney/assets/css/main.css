@@ -10,7 +10,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
 body {
-  	background-color: #60753C;
+  	background-color: #333333;
   	font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -113,8 +113,8 @@ a:after {
 }
 
 .navbar-inverse {
-    background-color: #60753C;
-    border-color: #506232;
+    background-color: #333333;
+    border-color: #333333;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -162,7 +162,7 @@ a:after {
 #ww {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #333333;
+	background-color: #F3F4F3;
 }
 
 #avatar {
