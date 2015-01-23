@@ -188,6 +188,11 @@ a:after {
   color: #333;
 }
 
+#ww.page h1 {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
 #avatar {
   border-radius: 206px;
   border: solid #60753C 8px;
