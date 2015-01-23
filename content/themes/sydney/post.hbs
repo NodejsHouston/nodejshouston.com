@@ -1,34 +1,43 @@
 {{!< default}}
-<main>
-  <article class="{{post_class}}">
-    {{#post}}
-    <header>
-      <h1>{{{title}}}</h1>
-      <h5>
-        <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time>
-      </h5>
-      {{#if tags}}<h5>Posted in {{tags}}</h5>{{/if}}
-    </header>
-    <section class="posts">
-      {{content}}
-    </section>
-    {{/post}}
 
-    <!-- start of disqus comments here -->
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-          var disqus_shortname = 'nodejshouston'; // required: replace example with your forum shortname
+  <div id="ww" class="post">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 centered">
+        <main>
+          <article class="{{post_class}}">
+            {{#post}}
+            <header>
+              <h1>{{{title}}}</h1>
+              <h5>
+                <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time>
+              </h5>
+              {{#if tags}}<h5>Posted in {{tags}}</h5>{{/if}}
+            </header>
+            <section class="posts">
+              {{content}}
+            </section>
+            {{/post}}
 
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <!-- end of disqus comments here -->
+            <!-- start of disqus comments here -->
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  var disqus_shortname = 'nodejshouston'; // required: replace example with your forum shortname
 
-    </article>
-</main>
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <!-- end of disqus comments here -->
+
+            </article>
+        </main>
+      </div>
+    </div>
+  </div>
+</div>

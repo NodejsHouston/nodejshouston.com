@@ -1,17 +1,8 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: STANLEY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,700italic);
 
 body {
     background-color: #1D1D1D;
-    font-family: 'Roboto', sans-serif;
+    font-family: "source-sans-pro", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #F3F4F3;
@@ -42,11 +33,16 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #333;
+  font-family: "source-sans-pro", sans-serif;
+  font-weight: 700;
+  color: #333;
   text-transform: uppercase;
   color: #80bd01;
+}
+
+h4, h5, h6 {
+  text-transform: initial;
+  color:  rgba(153,153,153,.9);
 }
 
 h1 {
@@ -144,7 +140,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: #222222;
+  color: #80bd01;
 }
 
 .navbar-brand {
@@ -184,7 +180,7 @@ a:after {
 #ww {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #303030;
+  background-color: #333333;
 }
 
 #avatar {
