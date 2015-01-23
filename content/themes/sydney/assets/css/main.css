@@ -179,6 +179,15 @@ a:after {
   background-color: #333333;
 }
 
+#ww.page {
+  background-color: white;
+  color: #333333;
+}
+
+#ww.page h1, #ww.page h2, #ww.page h3, #ww.page h4, #ww.page h5, #ww.page h6 {
+  color: #333;
+}
+
 #avatar {
   border-radius: 206px;
   border: solid #60753C 8px;
