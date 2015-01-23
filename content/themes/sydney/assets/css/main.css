@@ -21,10 +21,15 @@ body {
 }
 
 #hero {
-  background-color: #1D1D1D;
-  text-align:center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+    background-color: #1D1D1D;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    width: 120%;
+    left: -100px;
+    position: relative;
+    top: -70px;
 }
 
 #hero p {
@@ -40,6 +45,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #333;
+  text-transform: uppercase;
+  color: #80bd01;
 }
 
 h1 {
