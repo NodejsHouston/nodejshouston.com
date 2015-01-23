@@ -17,10 +17,6 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     overflow: hidden;
-    width: 120%;
-    left: -100px;
-    position: relative;
-    top: -70px;
 }
 
 #hero p {
