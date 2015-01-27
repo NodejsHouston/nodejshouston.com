@@ -1,0 +1,2627 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,700italic);
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+body.ember-application.editor .page-content .rendered-markdown {
+  font-family: "source-sans-pro", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  /* Titles */
+  /* Paragraph & Typographic */
+  /* Links */
+}
+body.ember-application.editor .page-content .rendered-markdown article,
+body.ember-application.editor .page-content .rendered-markdown aside,
+body.ember-application.editor .page-content .rendered-markdown details,
+body.ember-application.editor .page-content .rendered-markdown figcaption,
+body.ember-application.editor .page-content .rendered-markdown figure,
+body.ember-application.editor .page-content .rendered-markdown footer,
+body.ember-application.editor .page-content .rendered-markdown header,
+body.ember-application.editor .page-content .rendered-markdown hgroup,
+body.ember-application.editor .page-content .rendered-markdown main,
+body.ember-application.editor .page-content .rendered-markdown menu,
+body.ember-application.editor .page-content .rendered-markdown nav,
+body.ember-application.editor .page-content .rendered-markdown section,
+body.ember-application.editor .page-content .rendered-markdown summary {
+  display: block;
+}
+body.ember-application.editor .page-content .rendered-markdown audio,
+body.ember-application.editor .page-content .rendered-markdown canvas,
+body.ember-application.editor .page-content .rendered-markdown progress,
+body.ember-application.editor .page-content .rendered-markdown video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+body.ember-application.editor .page-content .rendered-markdown audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown [hidden],
+body.ember-application.editor .page-content .rendered-markdown template {
+  display: none;
+}
+body.ember-application.editor .page-content .rendered-markdown a {
+  background-color: transparent;
+}
+body.ember-application.editor .page-content .rendered-markdown a:active,
+body.ember-application.editor .page-content .rendered-markdown a:hover {
+  outline: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown abbr[title] {
+  border-bottom: 1px dotted;
+}
+body.ember-application.editor .page-content .rendered-markdown b,
+body.ember-application.editor .page-content .rendered-markdown strong {
+  font-weight: bold;
+}
+body.ember-application.editor .page-content .rendered-markdown dfn {
+  font-style: italic;
+}
+body.ember-application.editor .page-content .rendered-markdown h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+body.ember-application.editor .page-content .rendered-markdown mark {
+  background: #ff0;
+  color: #000;
+}
+body.ember-application.editor .page-content .rendered-markdown small {
+  font-size: 80%;
+}
+body.ember-application.editor .page-content .rendered-markdown sub,
+body.ember-application.editor .page-content .rendered-markdown sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+body.ember-application.editor .page-content .rendered-markdown sup {
+  top: -0.5em;
+}
+body.ember-application.editor .page-content .rendered-markdown sub {
+  bottom: -0.25em;
+}
+body.ember-application.editor .page-content .rendered-markdown img {
+  border: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown svg:not(:root) {
+  overflow: hidden;
+}
+body.ember-application.editor .page-content .rendered-markdown figure {
+  margin: 1em 40px;
+}
+body.ember-application.editor .page-content .rendered-markdown hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown pre {
+  overflow: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown code,
+body.ember-application.editor .page-content .rendered-markdown kbd,
+body.ember-application.editor .page-content .rendered-markdown pre,
+body.ember-application.editor .page-content .rendered-markdown samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+body.ember-application.editor .page-content .rendered-markdown button,
+body.ember-application.editor .page-content .rendered-markdown input,
+body.ember-application.editor .page-content .rendered-markdown optgroup,
+body.ember-application.editor .page-content .rendered-markdown select,
+body.ember-application.editor .page-content .rendered-markdown textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown button {
+  overflow: visible;
+}
+body.ember-application.editor .page-content .rendered-markdown button,
+body.ember-application.editor .page-content .rendered-markdown select {
+  text-transform: none;
+}
+body.ember-application.editor .page-content .rendered-markdown button,
+body.ember-application.editor .page-content .rendered-markdown html input[type="button"],
+body.ember-application.editor .page-content .rendered-markdown input[type="reset"],
+body.ember-application.editor .page-content .rendered-markdown input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+body.ember-application.editor .page-content .rendered-markdown button[disabled],
+body.ember-application.editor .page-content .rendered-markdown html input[disabled] {
+  cursor: default;
+}
+body.ember-application.editor .page-content .rendered-markdown button::-moz-focus-inner,
+body.ember-application.editor .page-content .rendered-markdown input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown input {
+  line-height: normal;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="checkbox"],
+body.ember-application.editor .page-content .rendered-markdown input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="number"]::-webkit-inner-spin-button,
+body.ember-application.editor .page-content .rendered-markdown input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="search"]::-webkit-search-cancel-button,
+body.ember-application.editor .page-content .rendered-markdown input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+body.ember-application.editor .page-content .rendered-markdown fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+body.ember-application.editor .page-content .rendered-markdown legend {
+  border: 0;
+  padding: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown textarea {
+  overflow: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown optgroup {
+  font-weight: bold;
+}
+body.ember-application.editor .page-content .rendered-markdown table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown td,
+body.ember-application.editor .page-content .rendered-markdown th {
+  padding: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body.ember-application.editor .page-content .rendered-markdown *:before,
+body.ember-application.editor .page-content .rendered-markdown *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body.ember-application.editor .page-content .rendered-markdown html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body.ember-application.editor .page-content .rendered-markdown body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+body.ember-application.editor .page-content .rendered-markdown input,
+body.ember-application.editor .page-content .rendered-markdown button,
+body.ember-application.editor .page-content .rendered-markdown select,
+body.ember-application.editor .page-content .rendered-markdown textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+body.ember-application.editor .page-content .rendered-markdown a {
+  color: #337ab7;
+  text-decoration: none;
+}
+body.ember-application.editor .page-content .rendered-markdown a:hover,
+body.ember-application.editor .page-content .rendered-markdown a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+body.ember-application.editor .page-content .rendered-markdown a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+body.ember-application.editor .page-content .rendered-markdown figure {
+  margin: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown img {
+  vertical-align: middle;
+}
+body.ember-application.editor .page-content .rendered-markdown .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown .img-rounded {
+  border-radius: 6px;
+}
+body.ember-application.editor .page-content .rendered-markdown .img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown .img-circle {
+  border-radius: 50%;
+}
+body.ember-application.editor .page-content .rendered-markdown hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+body.ember-application.editor .page-content .rendered-markdown .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown .sr-only-focusable:active,
+body.ember-application.editor .page-content .rendered-markdown .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown h1,
+body.ember-application.editor .page-content .rendered-markdown h2,
+body.ember-application.editor .page-content .rendered-markdown h3,
+body.ember-application.editor .page-content .rendered-markdown h4,
+body.ember-application.editor .page-content .rendered-markdown h5,
+body.ember-application.editor .page-content .rendered-markdown h6,
+body.ember-application.editor .page-content .rendered-markdown .h1,
+body.ember-application.editor .page-content .rendered-markdown .h2,
+body.ember-application.editor .page-content .rendered-markdown .h3,
+body.ember-application.editor .page-content .rendered-markdown .h4,
+body.ember-application.editor .page-content .rendered-markdown .h5,
+body.ember-application.editor .page-content .rendered-markdown .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+body.ember-application.editor .page-content .rendered-markdown h1 small,
+body.ember-application.editor .page-content .rendered-markdown h2 small,
+body.ember-application.editor .page-content .rendered-markdown h3 small,
+body.ember-application.editor .page-content .rendered-markdown h4 small,
+body.ember-application.editor .page-content .rendered-markdown h5 small,
+body.ember-application.editor .page-content .rendered-markdown h6 small,
+body.ember-application.editor .page-content .rendered-markdown .h1 small,
+body.ember-application.editor .page-content .rendered-markdown .h2 small,
+body.ember-application.editor .page-content .rendered-markdown .h3 small,
+body.ember-application.editor .page-content .rendered-markdown .h4 small,
+body.ember-application.editor .page-content .rendered-markdown .h5 small,
+body.ember-application.editor .page-content .rendered-markdown .h6 small,
+body.ember-application.editor .page-content .rendered-markdown h1 .small,
+body.ember-application.editor .page-content .rendered-markdown h2 .small,
+body.ember-application.editor .page-content .rendered-markdown h3 .small,
+body.ember-application.editor .page-content .rendered-markdown h4 .small,
+body.ember-application.editor .page-content .rendered-markdown h5 .small,
+body.ember-application.editor .page-content .rendered-markdown h6 .small,
+body.ember-application.editor .page-content .rendered-markdown .h1 .small,
+body.ember-application.editor .page-content .rendered-markdown .h2 .small,
+body.ember-application.editor .page-content .rendered-markdown .h3 .small,
+body.ember-application.editor .page-content .rendered-markdown .h4 .small,
+body.ember-application.editor .page-content .rendered-markdown .h5 .small,
+body.ember-application.editor .page-content .rendered-markdown .h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+body.ember-application.editor .page-content .rendered-markdown h1,
+body.ember-application.editor .page-content .rendered-markdown .h1,
+body.ember-application.editor .page-content .rendered-markdown h2,
+body.ember-application.editor .page-content .rendered-markdown .h2,
+body.ember-application.editor .page-content .rendered-markdown h3,
+body.ember-application.editor .page-content .rendered-markdown .h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+body.ember-application.editor .page-content .rendered-markdown h1 small,
+body.ember-application.editor .page-content .rendered-markdown .h1 small,
+body.ember-application.editor .page-content .rendered-markdown h2 small,
+body.ember-application.editor .page-content .rendered-markdown .h2 small,
+body.ember-application.editor .page-content .rendered-markdown h3 small,
+body.ember-application.editor .page-content .rendered-markdown .h3 small,
+body.ember-application.editor .page-content .rendered-markdown h1 .small,
+body.ember-application.editor .page-content .rendered-markdown .h1 .small,
+body.ember-application.editor .page-content .rendered-markdown h2 .small,
+body.ember-application.editor .page-content .rendered-markdown .h2 .small,
+body.ember-application.editor .page-content .rendered-markdown h3 .small,
+body.ember-application.editor .page-content .rendered-markdown .h3 .small {
+  font-size: 65%;
+}
+body.ember-application.editor .page-content .rendered-markdown h4,
+body.ember-application.editor .page-content .rendered-markdown .h4,
+body.ember-application.editor .page-content .rendered-markdown h5,
+body.ember-application.editor .page-content .rendered-markdown .h5,
+body.ember-application.editor .page-content .rendered-markdown h6,
+body.ember-application.editor .page-content .rendered-markdown .h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body.ember-application.editor .page-content .rendered-markdown h4 small,
+body.ember-application.editor .page-content .rendered-markdown .h4 small,
+body.ember-application.editor .page-content .rendered-markdown h5 small,
+body.ember-application.editor .page-content .rendered-markdown .h5 small,
+body.ember-application.editor .page-content .rendered-markdown h6 small,
+body.ember-application.editor .page-content .rendered-markdown .h6 small,
+body.ember-application.editor .page-content .rendered-markdown h4 .small,
+body.ember-application.editor .page-content .rendered-markdown .h4 .small,
+body.ember-application.editor .page-content .rendered-markdown h5 .small,
+body.ember-application.editor .page-content .rendered-markdown .h5 .small,
+body.ember-application.editor .page-content .rendered-markdown h6 .small,
+body.ember-application.editor .page-content .rendered-markdown .h6 .small {
+  font-size: 75%;
+}
+body.ember-application.editor .page-content .rendered-markdown h1,
+body.ember-application.editor .page-content .rendered-markdown .h1 {
+  font-size: 36px;
+}
+body.ember-application.editor .page-content .rendered-markdown h2,
+body.ember-application.editor .page-content .rendered-markdown .h2 {
+  font-size: 30px;
+}
+body.ember-application.editor .page-content .rendered-markdown h3,
+body.ember-application.editor .page-content .rendered-markdown .h3 {
+  font-size: 24px;
+}
+body.ember-application.editor .page-content .rendered-markdown h4,
+body.ember-application.editor .page-content .rendered-markdown .h4 {
+  font-size: 18px;
+}
+body.ember-application.editor .page-content .rendered-markdown h5,
+body.ember-application.editor .page-content .rendered-markdown .h5 {
+  font-size: 14px;
+}
+body.ember-application.editor .page-content .rendered-markdown h6,
+body.ember-application.editor .page-content .rendered-markdown .h6 {
+  font-size: 12px;
+}
+body.ember-application.editor .page-content .rendered-markdown p {
+  margin: 0 0 10px;
+}
+body.ember-application.editor .page-content .rendered-markdown .lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  body.ember-application.editor .page-content .rendered-markdown .lead {
+    font-size: 21px;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown small,
+body.ember-application.editor .page-content .rendered-markdown .small {
+  font-size: 85%;
+}
+body.ember-application.editor .page-content .rendered-markdown mark,
+body.ember-application.editor .page-content .rendered-markdown .mark {
+  background-color: #fcf8e3;
+  padding: .2em;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-left {
+  text-align: left;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-right {
+  text-align: right;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-center {
+  text-align: center;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-justify {
+  text-align: justify;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-nowrap {
+  white-space: nowrap;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-lowercase {
+  text-transform: lowercase;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-uppercase {
+  text-transform: uppercase;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-capitalize {
+  text-transform: capitalize;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-muted {
+  color: #777777;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-primary {
+  color: #337ab7;
+}
+body.ember-application.editor .page-content .rendered-markdown a.text-primary:hover {
+  color: #286090;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-success {
+  color: #3c763d;
+}
+body.ember-application.editor .page-content .rendered-markdown a.text-success:hover {
+  color: #2b542c;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-info {
+  color: #31708f;
+}
+body.ember-application.editor .page-content .rendered-markdown a.text-info:hover {
+  color: #245269;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-warning {
+  color: #8a6d3b;
+}
+body.ember-application.editor .page-content .rendered-markdown a.text-warning:hover {
+  color: #66512c;
+}
+body.ember-application.editor .page-content .rendered-markdown .text-danger {
+  color: #a94442;
+}
+body.ember-application.editor .page-content .rendered-markdown a.text-danger:hover {
+  color: #843534;
+}
+body.ember-application.editor .page-content .rendered-markdown .bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+body.ember-application.editor .page-content .rendered-markdown a.bg-primary:hover {
+  background-color: #286090;
+}
+body.ember-application.editor .page-content .rendered-markdown .bg-success {
+  background-color: #dff0d8;
+}
+body.ember-application.editor .page-content .rendered-markdown a.bg-success:hover {
+  background-color: #c1e2b3;
+}
+body.ember-application.editor .page-content .rendered-markdown .bg-info {
+  background-color: #d9edf7;
+}
+body.ember-application.editor .page-content .rendered-markdown a.bg-info:hover {
+  background-color: #afd9ee;
+}
+body.ember-application.editor .page-content .rendered-markdown .bg-warning {
+  background-color: #fcf8e3;
+}
+body.ember-application.editor .page-content .rendered-markdown a.bg-warning:hover {
+  background-color: #f7ecb5;
+}
+body.ember-application.editor .page-content .rendered-markdown .bg-danger {
+  background-color: #f2dede;
+}
+body.ember-application.editor .page-content .rendered-markdown a.bg-danger:hover {
+  background-color: #e4b9b9;
+}
+body.ember-application.editor .page-content .rendered-markdown .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+body.ember-application.editor .page-content .rendered-markdown ul,
+body.ember-application.editor .page-content .rendered-markdown ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+body.ember-application.editor .page-content .rendered-markdown ul ul,
+body.ember-application.editor .page-content .rendered-markdown ol ul,
+body.ember-application.editor .page-content .rendered-markdown ul ol,
+body.ember-application.editor .page-content .rendered-markdown ol ol {
+  margin-bottom: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+}
+body.ember-application.editor .page-content .rendered-markdown .list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+body.ember-application.editor .page-content .rendered-markdown dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+body.ember-application.editor .page-content .rendered-markdown dt,
+body.ember-application.editor .page-content .rendered-markdown dd {
+  line-height: 1.42857143;
+}
+body.ember-application.editor .page-content .rendered-markdown dt {
+  font-weight: bold;
+}
+body.ember-application.editor .page-content .rendered-markdown dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  body.ember-application.editor .page-content .rendered-markdown .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .dl-horizontal dd {
+    margin-left: 180px;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown abbr[title],
+body.ember-application.editor .page-content .rendered-markdown abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #777777;
+}
+body.ember-application.editor .page-content .rendered-markdown .initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+body.ember-application.editor .page-content .rendered-markdown blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eeeeee;
+}
+body.ember-application.editor .page-content .rendered-markdown blockquote p:last-child,
+body.ember-application.editor .page-content .rendered-markdown blockquote ul:last-child,
+body.ember-application.editor .page-content .rendered-markdown blockquote ol:last-child {
+  margin-bottom: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown blockquote footer,
+body.ember-application.editor .page-content .rendered-markdown blockquote small,
+body.ember-application.editor .page-content .rendered-markdown blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777777;
+}
+body.ember-application.editor .page-content .rendered-markdown blockquote footer:before,
+body.ember-application.editor .page-content .rendered-markdown blockquote small:before,
+body.ember-application.editor .page-content .rendered-markdown blockquote .small:before {
+  content: '\2014 \00A0';
+}
+body.ember-application.editor .page-content .rendered-markdown .blockquote-reverse,
+body.ember-application.editor .page-content .rendered-markdown blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+  text-align: right;
+}
+body.ember-application.editor .page-content .rendered-markdown .blockquote-reverse footer:before,
+body.ember-application.editor .page-content .rendered-markdown blockquote.pull-right footer:before,
+body.ember-application.editor .page-content .rendered-markdown .blockquote-reverse small:before,
+body.ember-application.editor .page-content .rendered-markdown blockquote.pull-right small:before,
+body.ember-application.editor .page-content .rendered-markdown .blockquote-reverse .small:before,
+body.ember-application.editor .page-content .rendered-markdown blockquote.pull-right .small:before {
+  content: '';
+}
+body.ember-application.editor .page-content .rendered-markdown .blockquote-reverse footer:after,
+body.ember-application.editor .page-content .rendered-markdown blockquote.pull-right footer:after,
+body.ember-application.editor .page-content .rendered-markdown .blockquote-reverse small:after,
+body.ember-application.editor .page-content .rendered-markdown blockquote.pull-right small:after,
+body.ember-application.editor .page-content .rendered-markdown .blockquote-reverse .small:after,
+body.ember-application.editor .page-content .rendered-markdown blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+body.ember-application.editor .page-content .rendered-markdown address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.42857143;
+}
+body.ember-application.editor .page-content .rendered-markdown code,
+body.ember-application.editor .page-content .rendered-markdown kbd,
+body.ember-application.editor .page-content .rendered-markdown pre,
+body.ember-application.editor .page-content .rendered-markdown samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+body.ember-application.editor .page-content .rendered-markdown code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+body.ember-application.editor .page-content .rendered-markdown kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+body.ember-application.editor .page-content .rendered-markdown kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+  box-shadow: none;
+}
+body.ember-application.editor .page-content .rendered-markdown pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+body.ember-application.editor .page-content .rendered-markdown pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown .pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+body.ember-application.editor .page-content .rendered-markdown .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  body.ember-application.editor .page-content .rendered-markdown .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  body.ember-application.editor .page-content .rendered-markdown .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  body.ember-application.editor .page-content .rendered-markdown .container {
+    width: 1170px;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body.ember-application.editor .page-content .rendered-markdown .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-1,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-1,
+body.ember-application.editor .page-content .rendered-markdown .col-md-1,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-1,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-2,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-2,
+body.ember-application.editor .page-content .rendered-markdown .col-md-2,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-2,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-3,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-3,
+body.ember-application.editor .page-content .rendered-markdown .col-md-3,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-3,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-4,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-4,
+body.ember-application.editor .page-content .rendered-markdown .col-md-4,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-4,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-5,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-5,
+body.ember-application.editor .page-content .rendered-markdown .col-md-5,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-5,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-6,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-6,
+body.ember-application.editor .page-content .rendered-markdown .col-md-6,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-6,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-7,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-7,
+body.ember-application.editor .page-content .rendered-markdown .col-md-7,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-7,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-8,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-8,
+body.ember-application.editor .page-content .rendered-markdown .col-md-8,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-8,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-9,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-9,
+body.ember-application.editor .page-content .rendered-markdown .col-md-9,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-9,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-10,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-10,
+body.ember-application.editor .page-content .rendered-markdown .col-md-10,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-10,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-11,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-11,
+body.ember-application.editor .page-content .rendered-markdown .col-md-11,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-11,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-12,
+body.ember-application.editor .page-content .rendered-markdown .col-sm-12,
+body.ember-application.editor .page-content .rendered-markdown .col-md-12,
+body.ember-application.editor .page-content .rendered-markdown .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-1,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-2,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-3,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-4,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-5,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-6,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-7,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-8,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-9,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-10,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-11,
+body.ember-application.editor .page-content .rendered-markdown .col-xs-12 {
+  float: left;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-12 {
+  width: 100%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-11 {
+  width: 91.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-10 {
+  width: 83.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-9 {
+  width: 75%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-8 {
+  width: 66.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-7 {
+  width: 58.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-6 {
+  width: 50%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-5 {
+  width: 41.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-4 {
+  width: 33.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-3 {
+  width: 25%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-2 {
+  width: 16.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-1 {
+  width: 8.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-12 {
+  right: 100%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-11 {
+  right: 91.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-10 {
+  right: 83.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-9 {
+  right: 75%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-8 {
+  right: 66.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-7 {
+  right: 58.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-6 {
+  right: 50%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-5 {
+  right: 41.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-4 {
+  right: 33.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-3 {
+  right: 25%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-2 {
+  right: 16.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-1 {
+  right: 8.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-pull-0 {
+  right: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-12 {
+  left: 100%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-11 {
+  left: 91.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-10 {
+  left: 83.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-9 {
+  left: 75%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-8 {
+  left: 66.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-7 {
+  left: 58.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-6 {
+  left: 50%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-5 {
+  left: 41.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-4 {
+  left: 33.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-3 {
+  left: 25%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-2 {
+  left: 16.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-1 {
+  left: 8.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-push-0 {
+  left: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-12 {
+  margin-left: 100%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-9 {
+  margin-left: 75%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-6 {
+  margin-left: 50%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-3 {
+  margin-left: 25%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+body.ember-application.editor .page-content .rendered-markdown .col-xs-offset-0 {
+  margin-left: 0%;
+}
+@media (min-width: 768px) {
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-1,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-2,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-3,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-4,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-5,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-6,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-7,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-8,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-9,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-10,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-11,
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-12 {
+    float: left;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-12 {
+    width: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-11 {
+    width: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-10 {
+    width: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-9 {
+    width: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-8 {
+    width: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-7 {
+    width: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-6 {
+    width: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-5 {
+    width: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-4 {
+    width: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-3 {
+    width: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-2 {
+    width: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-1 {
+    width: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-12 {
+    right: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-9 {
+    right: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-6 {
+    right: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-3 {
+    right: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-pull-0 {
+    right: auto;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-12 {
+    left: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-9 {
+    left: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-6 {
+    left: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-3 {
+    left: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-push-0 {
+    left: auto;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  body.ember-application.editor .page-content .rendered-markdown .col-md-1,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-2,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-3,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-4,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-5,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-6,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-7,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-8,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-9,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-10,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-11,
+  body.ember-application.editor .page-content .rendered-markdown .col-md-12 {
+    float: left;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-12 {
+    width: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-11 {
+    width: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-10 {
+    width: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-9 {
+    width: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-8 {
+    width: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-7 {
+    width: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-6 {
+    width: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-5 {
+    width: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-4 {
+    width: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-3 {
+    width: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-2 {
+    width: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-1 {
+    width: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-12 {
+    right: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-9 {
+    right: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-6 {
+    right: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-3 {
+    right: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-pull-0 {
+    right: auto;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-12 {
+    left: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-9 {
+    left: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-6 {
+    left: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-3 {
+    left: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-push-0 {
+    left: auto;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-1,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-2,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-3,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-4,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-5,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-6,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-7,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-8,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-9,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-10,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-11,
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-12 {
+    float: left;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-12 {
+    width: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-11 {
+    width: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-10 {
+    width: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-9 {
+    width: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-8 {
+    width: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-7 {
+    width: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-6 {
+    width: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-5 {
+    width: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-4 {
+    width: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-3 {
+    width: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-2 {
+    width: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-1 {
+    width: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-12 {
+    right: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-9 {
+    right: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-6 {
+    right: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-3 {
+    right: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-pull-0 {
+    right: auto;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-12 {
+    left: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-9 {
+    left: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-6 {
+    left: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-3 {
+    left: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-push-0 {
+    left: auto;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown table {
+  background-color: transparent;
+}
+body.ember-application.editor .page-content .rendered-markdown caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777777;
+  text-align: left;
+}
+body.ember-application.editor .page-content .rendered-markdown th {
+  text-align: left;
+}
+body.ember-application.editor .page-content .rendered-markdown .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > caption + thead > tr:first-child > th,
+body.ember-application.editor .page-content .rendered-markdown .table > colgroup + thead > tr:first-child > th,
+body.ember-application.editor .page-content .rendered-markdown .table > thead:first-child > tr:first-child > th,
+body.ember-application.editor .page-content .rendered-markdown .table > caption + thead > tr:first-child > td,
+body.ember-application.editor .page-content .rendered-markdown .table > colgroup + thead > tr:first-child > td,
+body.ember-application.editor .page-content .rendered-markdown .table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+body.ember-application.editor .page-content .rendered-markdown .table .table {
+  background-color: #ffffff;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-condensed > thead > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table-condensed > tbody > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table-condensed > tfoot > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table-condensed > thead > tr > td,
+body.ember-application.editor .page-content .rendered-markdown .table-condensed > tbody > tr > td,
+body.ember-application.editor .page-content .rendered-markdown .table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-bordered {
+  border: 1px solid #dddddd;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-bordered > thead > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table-bordered > tbody > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table-bordered > tfoot > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table-bordered > thead > tr > td,
+body.ember-application.editor .page-content .rendered-markdown .table-bordered > tbody > tr > td,
+body.ember-application.editor .page-content .rendered-markdown .table-bordered > tfoot > tr > td {
+  border: 1px solid #dddddd;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-bordered > thead > tr > th,
+body.ember-application.editor .page-content .rendered-markdown .table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+body.ember-application.editor .page-content .rendered-markdown table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+body.ember-application.editor .page-content .rendered-markdown table td[class*="col-"],
+body.ember-application.editor .page-content .rendered-markdown table th[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-cell;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > td.active,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > td.active,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > td.active,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > th.active,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > th.active,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > th.active,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.active > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.active > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.active > td,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.active > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.active > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > td.active:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > th.active:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.active:hover > td,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr:hover > .active,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > td.success,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > td.success,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > td.success,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > th.success,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > th.success,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > th.success,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.success > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.success > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.success > td,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.success > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.success > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > td.success:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > th.success:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.success:hover > td,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr:hover > .success,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > td.info,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > td.info,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > td.info,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > th.info,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > th.info,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > th.info,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.info > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.info > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.info > td,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.info > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.info > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > td.info:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > th.info:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.info:hover > td,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr:hover > .info,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > td.warning,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > td.warning,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > td.warning,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > th.warning,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > th.warning,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > th.warning,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.warning > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.warning > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.warning > td,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.warning > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.warning > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > td.warning:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > th.warning:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.warning:hover > td,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr:hover > .warning,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > td.danger,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > td.danger,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > td.danger,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr > th.danger,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr > th.danger,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr > th.danger,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.danger > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.danger > td,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.danger > td,
+body.ember-application.editor .page-content .rendered-markdown .table > thead > tr.danger > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tbody > tr.danger > th,
+body.ember-application.editor .page-content .rendered-markdown .table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > td.danger:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr > th.danger:hover,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.danger:hover > td,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr:hover > .danger,
+body.ember-application.editor .page-content .rendered-markdown .table-hover > tbody > tr.danger:hover > th {
+  background-color: #ebcccc;
+}
+body.ember-application.editor .page-content .rendered-markdown .table-responsive {
+  overflow-x: auto;
+  min-height: 0.01%;
+}
+@media screen and (max-width: 767px) {
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dddddd;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table > thead > tr > th,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table > tbody > tr > th,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table > tfoot > tr > th,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table > thead > tr > td,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table > tbody > tr > td,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered {
+    border: 0;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > thead > tr > th:first-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > thead > tr > td:first-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > thead > tr > th:last-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > thead > tr > td:last-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  body.ember-application.editor .page-content .rendered-markdown .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+body.ember-application.editor .page-content .rendered-markdown label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="radio"],
+body.ember-application.editor .page-content .rendered-markdown input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="file"] {
+  display: block;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="range"] {
+  display: block;
+  width: 100%;
+}
+body.ember-application.editor .page-content .rendered-markdown select[multiple],
+body.ember-application.editor .page-content .rendered-markdown select[size] {
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="file"]:focus,
+body.ember-application.editor .page-content .rendered-markdown input[type="radio"]:focus,
+body.ember-application.editor .page-content .rendered-markdown input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+body.ember-application.editor .page-content .rendered-markdown output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control[disabled],
+body.ember-application.editor .page-content .rendered-markdown .form-control[readonly],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+}
+body.ember-application.editor .page-content .rendered-markdown textarea.form-control {
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="search"] {
+  -webkit-appearance: none;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  body.ember-application.editor .page-content .rendered-markdown input[type="date"],
+  body.ember-application.editor .page-content .rendered-markdown input[type="time"],
+  body.ember-application.editor .page-content .rendered-markdown input[type="datetime-local"],
+  body.ember-application.editor .page-content .rendered-markdown input[type="month"] {
+    line-height: 34px;
+  }
+  body.ember-application.editor .page-content .rendered-markdown input[type="date"].input-sm,
+  body.ember-application.editor .page-content .rendered-markdown input[type="time"].input-sm,
+  body.ember-application.editor .page-content .rendered-markdown input[type="datetime-local"].input-sm,
+  body.ember-application.editor .page-content .rendered-markdown input[type="month"].input-sm,
+  body.ember-application.editor .page-content .rendered-markdown .input-group-sm input[type="date"],
+  body.ember-application.editor .page-content .rendered-markdown .input-group-sm input[type="time"],
+  body.ember-application.editor .page-content .rendered-markdown .input-group-sm input[type="datetime-local"],
+  body.ember-application.editor .page-content .rendered-markdown .input-group-sm input[type="month"] {
+    line-height: 30px;
+  }
+  body.ember-application.editor .page-content .rendered-markdown input[type="date"].input-lg,
+  body.ember-application.editor .page-content .rendered-markdown input[type="time"].input-lg,
+  body.ember-application.editor .page-content .rendered-markdown input[type="datetime-local"].input-lg,
+  body.ember-application.editor .page-content .rendered-markdown input[type="month"].input-lg,
+  body.ember-application.editor .page-content .rendered-markdown .input-group-lg input[type="date"],
+  body.ember-application.editor .page-content .rendered-markdown .input-group-lg input[type="time"],
+  body.ember-application.editor .page-content .rendered-markdown .input-group-lg input[type="datetime-local"],
+  body.ember-application.editor .page-content .rendered-markdown .input-group-lg input[type="month"] {
+    line-height: 46px;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown .form-group {
+  margin-bottom: 15px;
+}
+body.ember-application.editor .page-content .rendered-markdown .radio,
+body.ember-application.editor .page-content .rendered-markdown .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body.ember-application.editor .page-content .rendered-markdown .radio label,
+body.ember-application.editor .page-content .rendered-markdown .checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+body.ember-application.editor .page-content .rendered-markdown .radio input[type="radio"],
+body.ember-application.editor .page-content .rendered-markdown .radio-inline input[type="radio"],
+body.ember-application.editor .page-content .rendered-markdown .checkbox input[type="checkbox"],
+body.ember-application.editor .page-content .rendered-markdown .checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+body.ember-application.editor .page-content .rendered-markdown .radio + .radio,
+body.ember-application.editor .page-content .rendered-markdown .checkbox + .checkbox {
+  margin-top: -5px;
+}
+body.ember-application.editor .page-content .rendered-markdown .radio-inline,
+body.ember-application.editor .page-content .rendered-markdown .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+body.ember-application.editor .page-content .rendered-markdown .radio-inline + .radio-inline,
+body.ember-application.editor .page-content .rendered-markdown .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="radio"][disabled],
+body.ember-application.editor .page-content .rendered-markdown input[type="checkbox"][disabled],
+body.ember-application.editor .page-content .rendered-markdown input[type="radio"].disabled,
+body.ember-application.editor .page-content .rendered-markdown input[type="checkbox"].disabled,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] input[type="radio"],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] input[type="checkbox"] {
+  cursor: not-allowed;
+}
+body.ember-application.editor .page-content .rendered-markdown .radio-inline.disabled,
+body.ember-application.editor .page-content .rendered-markdown .checkbox-inline.disabled,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .radio-inline,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+body.ember-application.editor .page-content .rendered-markdown .radio.disabled label,
+body.ember-application.editor .page-content .rendered-markdown .checkbox.disabled label,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .radio label,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .checkbox label {
+  cursor: not-allowed;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control-static.input-lg,
+body.ember-application.editor .page-content .rendered-markdown .form-control-static.input-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown .input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+body.ember-application.editor .page-content .rendered-markdown select.input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+body.ember-application.editor .page-content .rendered-markdown textarea.input-sm,
+body.ember-application.editor .page-content .rendered-markdown select[multiple].input-sm {
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+body.ember-application.editor .page-content .rendered-markdown select.form-group-sm .form-control {
+  height: 30px;
+  line-height: 30px;
+}
+body.ember-application.editor .page-content .rendered-markdown textarea.form-group-sm .form-control,
+body.ember-application.editor .page-content .rendered-markdown select[multiple].form-group-sm .form-control {
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-group-sm .form-control-static {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+body.ember-application.editor .page-content .rendered-markdown .input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+body.ember-application.editor .page-content .rendered-markdown select.input-lg {
+  height: 46px;
+  line-height: 46px;
+}
+body.ember-application.editor .page-content .rendered-markdown textarea.input-lg,
+body.ember-application.editor .page-content .rendered-markdown select[multiple].input-lg {
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+body.ember-application.editor .page-content .rendered-markdown select.form-group-lg .form-control {
+  height: 46px;
+  line-height: 46px;
+}
+body.ember-application.editor .page-content .rendered-markdown textarea.form-group-lg .form-control,
+body.ember-application.editor .page-content .rendered-markdown select[multiple].form-group-lg .form-control {
+  height: auto;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-group-lg .form-control-static {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-feedback {
+  position: relative;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-feedback .form-control {
+  padding-right: 42.5px;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .input-lg + .form-control-feedback {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+body.ember-application.editor .page-content .rendered-markdown .input-sm + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-success .help-block,
+body.ember-application.editor .page-content .rendered-markdown .has-success .control-label,
+body.ember-application.editor .page-content .rendered-markdown .has-success .radio,
+body.ember-application.editor .page-content .rendered-markdown .has-success .checkbox,
+body.ember-application.editor .page-content .rendered-markdown .has-success .radio-inline,
+body.ember-application.editor .page-content .rendered-markdown .has-success .checkbox-inline,
+body.ember-application.editor .page-content .rendered-markdown .has-success.radio label,
+body.ember-application.editor .page-content .rendered-markdown .has-success.checkbox label,
+body.ember-application.editor .page-content .rendered-markdown .has-success.radio-inline label,
+body.ember-application.editor .page-content .rendered-markdown .has-success.checkbox-inline label {
+  color: #3c763d;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+body.ember-application.editor .page-content .rendered-markdown .has-success .form-control:focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-success .form-control-feedback {
+  color: #3c763d;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-warning .help-block,
+body.ember-application.editor .page-content .rendered-markdown .has-warning .control-label,
+body.ember-application.editor .page-content .rendered-markdown .has-warning .radio,
+body.ember-application.editor .page-content .rendered-markdown .has-warning .checkbox,
+body.ember-application.editor .page-content .rendered-markdown .has-warning .radio-inline,
+body.ember-application.editor .page-content .rendered-markdown .has-warning .checkbox-inline,
+body.ember-application.editor .page-content .rendered-markdown .has-warning.radio label,
+body.ember-application.editor .page-content .rendered-markdown .has-warning.checkbox label,
+body.ember-application.editor .page-content .rendered-markdown .has-warning.radio-inline label,
+body.ember-application.editor .page-content .rendered-markdown .has-warning.checkbox-inline label {
+  color: #8a6d3b;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+body.ember-application.editor .page-content .rendered-markdown .has-warning .form-control:focus {
+  border-color: #66512c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-warning .form-control-feedback {
+  color: #8a6d3b;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-error .help-block,
+body.ember-application.editor .page-content .rendered-markdown .has-error .control-label,
+body.ember-application.editor .page-content .rendered-markdown .has-error .radio,
+body.ember-application.editor .page-content .rendered-markdown .has-error .checkbox,
+body.ember-application.editor .page-content .rendered-markdown .has-error .radio-inline,
+body.ember-application.editor .page-content .rendered-markdown .has-error .checkbox-inline,
+body.ember-application.editor .page-content .rendered-markdown .has-error.radio label,
+body.ember-application.editor .page-content .rendered-markdown .has-error.checkbox label,
+body.ember-application.editor .page-content .rendered-markdown .has-error.radio-inline label,
+body.ember-application.editor .page-content .rendered-markdown .has-error.checkbox-inline label {
+  color: #a94442;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+body.ember-application.editor .page-content .rendered-markdown .has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-error .form-control-feedback {
+  color: #a94442;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-feedback label ~ .form-control-feedback {
+  top: 25px;
+}
+body.ember-application.editor .page-content .rendered-markdown .has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .form-control-static {
+    display: inline-block;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .input-group .input-group-addon,
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .input-group .input-group-btn,
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .input-group .form-control {
+    width: auto;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .input-group > .form-control {
+    width: 100%;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .radio,
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .radio label,
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .checkbox label {
+    padding-left: 0;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .radio input[type="radio"],
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  body.ember-application.editor .page-content .rendered-markdown .form-inline .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown .form-horizontal .radio,
+body.ember-application.editor .page-content .rendered-markdown .form-horizontal .checkbox,
+body.ember-application.editor .page-content .rendered-markdown .form-horizontal .radio-inline,
+body.ember-application.editor .page-content .rendered-markdown .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-horizontal .radio,
+body.ember-application.editor .page-content .rendered-markdown .form-horizontal .checkbox {
+  min-height: 27px;
+}
+body.ember-application.editor .page-content .rendered-markdown .form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media (min-width: 768px) {
+  body.ember-application.editor .page-content .rendered-markdown .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown .form-horizontal .has-feedback .form-control-feedback {
+  right: 15px;
+}
+@media (min-width: 768px) {
+  body.ember-application.editor .page-content .rendered-markdown .form-horizontal .form-group-lg .control-label {
+    padding-top: 14.333333px;
+  }
+}
+@media (min-width: 768px) {
+  body.ember-application.editor .page-content .rendered-markdown .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px;
+  }
+}
+body.ember-application.editor .page-content .rendered-markdown .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn:active:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn.active:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn:active.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn:active,
+body.ember-application.editor .page-content .rendered-markdown .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+body.ember-application.editor .page-content .rendered-markdown .btn.disabled,
+body.ember-application.editor .page-content .rendered-markdown .btn[disabled],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-default:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-default:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-default.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-default:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-default.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-default:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-default.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-default.disabled,
+body.ember-application.editor .page-content .rendered-markdown .btn-default[disabled],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-default,
+body.ember-application.editor .page-content .rendered-markdown .btn-default.disabled:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-default[disabled]:hover,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-default:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-default.disabled:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-default[disabled]:focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-default:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-default.disabled.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-default[disabled].focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-default.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-default.disabled:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-default[disabled]:active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-default:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-default.disabled.active,
+body.ember-application.editor .page-content .rendered-markdown .btn-default[disabled].active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-primary {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-primary:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-primary:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.disabled,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary[disabled],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-primary,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.disabled:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary[disabled]:hover,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-primary:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.disabled:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary[disabled]:focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-primary:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.disabled.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary[disabled].focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-primary.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.disabled:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary[disabled]:active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-primary:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary.disabled.active,
+body.ember-application.editor .page-content .rendered-markdown .btn-primary[disabled].active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-primary.active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-primary .badge {
+  color: #337ab7;
+  background-color: #ffffff;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-success:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-success:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-success.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-success:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-success.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-success:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-success.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-success.disabled,
+body.ember-application.editor .page-content .rendered-markdown .btn-success[disabled],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-success,
+body.ember-application.editor .page-content .rendered-markdown .btn-success.disabled:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-success[disabled]:hover,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-success:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-success.disabled:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-success[disabled]:focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-success:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-success.disabled.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-success[disabled].focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-success.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-success.disabled:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-success[disabled]:active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-success:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-success.disabled.active,
+body.ember-application.editor .page-content .rendered-markdown .btn-success[disabled].active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-info:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-info:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-info.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-info:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-info.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-info:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-info.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-info.disabled,
+body.ember-application.editor .page-content .rendered-markdown .btn-info[disabled],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-info,
+body.ember-application.editor .page-content .rendered-markdown .btn-info.disabled:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-info[disabled]:hover,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-info:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-info.disabled:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-info[disabled]:focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-info:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-info.disabled.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-info[disabled].focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-info.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-info.disabled:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-info[disabled]:active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-info:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-info.disabled.active,
+body.ember-application.editor .page-content .rendered-markdown .btn-info[disabled].active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-warning:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-warning:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.disabled,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning[disabled],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-warning,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.disabled:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning[disabled]:hover,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-warning:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.disabled:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning[disabled]:focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-warning:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.disabled.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning[disabled].focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-warning.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.disabled:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning[disabled]:active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-warning:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning.disabled.active,
+body.ember-application.editor .page-content .rendered-markdown .btn-warning[disabled].active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-danger:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-danger:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.active,
+body.ember-application.editor .page-content .rendered-markdown .open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.disabled,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger[disabled],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-danger,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.disabled:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger[disabled]:hover,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-danger:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.disabled:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger[disabled]:focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-danger:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.disabled.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger[disabled].focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-danger.focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.disabled:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger[disabled]:active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-danger:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger.disabled.active,
+body.ember-application.editor .page-content .rendered-markdown .btn-danger[disabled].active,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-link {
+  color: #337ab7;
+  font-weight: normal;
+  border-radius: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-link,
+body.ember-application.editor .page-content .rendered-markdown .btn-link:active,
+body.ember-application.editor .page-content .rendered-markdown .btn-link.active,
+body.ember-application.editor .page-content .rendered-markdown .btn-link[disabled],
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-link,
+body.ember-application.editor .page-content .rendered-markdown .btn-link:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-link:focus,
+body.ember-application.editor .page-content .rendered-markdown .btn-link:active {
+  border-color: transparent;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-link:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-link[disabled]:hover,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-link:hover,
+body.ember-application.editor .page-content .rendered-markdown .btn-link[disabled]:focus,
+body.ember-application.editor .page-content .rendered-markdown fieldset[disabled] .btn-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-block {
+  display: block;
+  width: 100%;
+}
+body.ember-application.editor .page-content .rendered-markdown .btn-block + .btn-block {
+  margin-top: 5px;
+}
+body.ember-application.editor .page-content .rendered-markdown input[type="submit"].btn-block,
+body.ember-application.editor .page-content .rendered-markdown input[type="reset"].btn-block,
+body.ember-application.editor .page-content .rendered-markdown input[type="button"].btn-block {
+  width: 100%;
+}
+body.ember-application.editor .page-content .rendered-markdown h1,
+body.ember-application.editor .page-content .rendered-markdown h2,
+body.ember-application.editor .page-content .rendered-markdown h3,
+body.ember-application.editor .page-content .rendered-markdown h4,
+body.ember-application.editor .page-content .rendered-markdown h5,
+body.ember-application.editor .page-content .rendered-markdown h6 {
+  font-family: "source-sans-pro", sans-serif;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  color: #80bd01;
+  margin-top: 40px;
+}
+body.ember-application.editor .page-content .rendered-markdown h4,
+body.ember-application.editor .page-content .rendered-markdown h5,
+body.ember-application.editor .page-content .rendered-markdown h6 {
+  text-transform: initial;
+  color: rgba(153, 153, 153, 0.9);
+}
+body.ember-application.editor .page-content .rendered-markdown h1 {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body.ember-application.editor .page-content .rendered-markdown p {
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+body.ember-application.editor .page-content .rendered-markdown pre {
+  text-align: left;
+}
+body.ember-application.editor .page-content .rendered-markdown code {
+  text-align: left;
+}
+body.ember-application.editor .page-content .rendered-markdown a {
+  color: #80bd01;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+body.ember-application.editor .page-content .rendered-markdown a:hover,
+body.ember-application.editor .page-content .rendered-markdown a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+body.ember-application.editor .page-content .rendered-markdown a:before,
+body.ember-application.editor .page-content .rendered-markdown a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+body.ember-application.editor .page-content .rendered-markdown hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
