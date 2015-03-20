@@ -27,6 +27,25 @@ body {
   line-height: 1.8;
 }
 
+@media (max-width: 767px) {
+  #hero p {
+    font-size: 1.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .homepage article header h1 {
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  .homepage article header h5 {
+    margin-top: 10px;
+  }
+  .homepage article {
+    margin-bottom: 40px;
+  }
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
   font-family: "source-sans-pro", sans-serif;
@@ -197,4 +216,61 @@ a:after {
 #avatar {
   border-radius: 206px;
   border: solid #60753C 8px;
+}
+
+/*author section*/
+
+.post-footer .share {
+  margin-bottom: 40px;
+}
+.post-footer .share a {
+  font-size: 1.4em;
+}
+
+.author-image {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+  padding: 6px;
+  background: #fff;
+  z-index: 2;
+  box-shadow: #E7EEF2 0 0 0 1px;
+}
+
+.author-image .img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 100%;
+}
+
+.media-body, .media-left, .media-right {
+display: table-cell;
+vertical-align: top;
+}
+
+.media-body, .media-left, .media-right {
+display: table-cell;
+vertical-align: top;
+}
+h4.media-heading {
+margin-top: 15px;
+margin-bottom: 5px;
+}
+
+.media-heading {
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+.media-left, .media>.pull-left {
+padding-right: 10px;
 }
